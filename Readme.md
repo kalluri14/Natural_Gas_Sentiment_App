@@ -33,16 +33,15 @@ This Streamlit app predicts **natural gas prices** based on **news article senti
 | Model Storage | joblib (`.pkl`)  |
 
 ---
-
-## 📁 Project Structure
-├── app.py # Streamlit app UI
-├── word_sentiment_price.py # Model inference logic
-├── requirements.txt # Python dependencies
-├── models/ # Pretrained models
+ ## 📁 Project Structure
+ <pre> 
+├── app.py 
+├── word_sentiment_price.py 
+├── requirements.txt 
 │ ├── logreg_pipeline.pkl
 │ ├── rf_pipeline.pkl
 │ └── close_series.pkl
-└── .streamlit/config.toml # Streamlit layout config
+└── .streamlit/config.toml  </pre>
 
 ---
 
